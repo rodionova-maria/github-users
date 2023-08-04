@@ -1,7 +1,13 @@
 import React from 'react'
+import styled from 'styled-components'
 
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: #bf4f74;
+`
 function App() {
-  return <div>Hello,2 World!</div>
+  return <Title>Hello,2 World!</Title>
 }
 
 export default App

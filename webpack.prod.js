@@ -5,7 +5,8 @@ const webpackConfig = require('./webpack.config')
 module.exports = merge(webpackConfig, {
   mode: 'production',
   output: {
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-  },
+    clean: true
+  }
 })

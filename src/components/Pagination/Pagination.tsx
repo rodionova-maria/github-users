@@ -13,7 +13,7 @@ const Pagination = ({
   onPageChange
 }: IProps) => {
   return (
-    <S.Numbers>
+    <S.Numbers data-testid="pagination">
       Страницы:
       {Array.from({ length: totalPages }, (_, index) => index + 1).map(
         (page) => (

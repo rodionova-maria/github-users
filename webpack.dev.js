@@ -5,6 +5,8 @@ module.exports = merge(webpackConfig, {
   mode: 'development',
   entry: './src/index.tsx',
   devServer: {
+    compress: true,
+    disableHostCheck: true,
     historyApiFallback: true
   }
 })

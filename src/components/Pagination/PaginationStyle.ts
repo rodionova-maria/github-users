@@ -9,6 +9,11 @@ export const Numbers = styled.div`
 
 export const Number = styled.button`
   background: none;
-  border: ${(props) => (props.disabled ? 'none' : '1px solid #f2c6b4')};
-  cursor: ${(props) => (props.disabled ? 'default' : 'pointer')};
+  border: 1px solid #f2c6b4;
+
+  &:disabled {
+    border: none;
+    background: none;
+    cursor: default;
+  }
 `

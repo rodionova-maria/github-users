@@ -27,7 +27,14 @@ const GlobalStyles = createGlobalStyle`
     border: 0;
     padding: 5px 10px;
     height: 30px;
-    border-radius: 5px
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+    &:hover {
+      background: #fa9797;
+      border-color: #fa9797;
+    }
   }
 
   input {

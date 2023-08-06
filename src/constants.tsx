@@ -1,8 +1,7 @@
 import axios from 'axios'
 
 const GITHUB_API_BASE_URL = 'https://api.github.com'
-const GITHUB_ACCESS_TOKEN =
-  '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'
+const GITHUB_ACCESS_TOKEN = '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'
 
 export const PER_PAGE = 20
 

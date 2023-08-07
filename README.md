@@ -27,3 +27,7 @@
 
 **Продакшн версия** собирается в папку dist командой:<br>
 `npm run build`
+
+## Деплой
+Осуществлён на render.com:<br>
+[https://github-users-u18z.onrender.com/](https://github-users-u18z.onrender.com/)

@@ -6,7 +6,8 @@ module.exports = merge(webpackConfig, {
   entry: './src/index.tsx',
   devServer: {
     compress: true,
-    public: 'github-users-u18z.onrender.com',
+    // public: 'github-users-u18z.onrender.com',
+    allowedHosts: 'all',
     historyApiFallback: true
   }
 })

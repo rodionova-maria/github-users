@@ -7,7 +7,7 @@ import Loader from '../../components/Loader/Loader'
 import Pagination from '../../components/Pagination/Pagination'
 import Sort from '../../components/Sort/Sort'
 
-const Users = () => {
+const MainPage = () => {
   const [searchString, setSearchString] = useState('')
   const [users, setUsers] = useState<GitHubUser[]>([])
   const [totalUsers, setTotalUsers] = useState(0)
@@ -80,4 +80,4 @@ const Users = () => {
   )
 }
 
-export default Users
+export default MainPage
